@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    font-family: "Rye";
+}
+@font-face {
+    font-family: "Rye";
+    src: url(../Rye/Rye-Regular.ttf);
+}
+header{
+    padding: 1em;
+    background-color: maroon;
+    color: white;
+    font-size: larger;
+    text-decoration:overline underline white;
+    font-family: "Rye";
+    src: url(../Rye/Rye-Regular.ttf);
+}
+
+nav{
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:rgb(203, 0, 0);
+}
+
+.dice{
+    width: 10rem;
+    height:10rem;
+    padding-top: 15px;
+}
+
+.about{
+    padding-top: 20px;
+}
