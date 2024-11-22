@@ -23,8 +23,10 @@ nav{
 }
 
 a{
+    display:flex;
     color: white;
     text-decoration: none;
+    justify-content: space-evenly;
 }
 
 a:hover{
@@ -40,4 +42,24 @@ a:hover{
 
 .about{
     padding-top: 20px;
+}
+
+.basics{
+    padding: 15px;
+}
+
+.buy{
+    display: flex;
+    background-color: rgb(191, 0, 0);
+    width: 10rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 15px;
+}
+
+.buy:hover{
+    background-color: rgb(125, 0, 0);
+    color:white;
 }
